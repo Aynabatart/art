@@ -75,6 +75,182 @@ li {
     transition: 1s ease;
     }
     
+    @media only screen and (max-width: 1430px) {
+        #landing-page {
+            margin-top: -250px;
+            padding-bottom: 20px;   
+        }
+
+        .unit_price_image {
+            width: 200px !important;
+            height: 300px !important;
+        }
+
+        #unit_price_text {
+            padding-bottom: 5% !important; 
+        }
+
+        .unit_image_description {
+            margin-bottom: 350px !important;
+        }
+
+        .unit_image_price {
+            margin-top: 350px !important;
+        }
+
+        .set_price_image {
+            width: 200px !important;
+            height: 300px !important;
+            
+        }
+
+        .set_price_center_image {
+            width: 500px !important;
+            height: 300px !important;
+        }
+
+        .set_image_price {
+            padding-bottom: 30px;
+        }
+
+        .set_image_description {
+            margin-top: 400px !important;
+        }
+
+        .set_image_description_number {
+            margin-top: 350px !important;
+        }
+
+        #rules_title {
+            padding-bottom: 10px;
+        }
+      }
+
+      @media only screen and (max-width: 1022px) {
+        #landing-page {
+            margin-top: -230px;
+            padding-bottom: 20px;   
+        }
+
+        .unit_price_image {
+            width: 150px !important;
+            height: 230px !important;
+        }
+
+        .unit_image_description {
+            margin-bottom: 280px !important;
+        }
+
+        .unit_image_price {
+            margin-top: 280px !important;
+        }
+
+        .set_price_image {
+            width: 150px !important;
+            height: 230px !important;
+            
+        }
+
+        .set_price_center_image {
+            width: 400px !important;
+            height: 230px !important;
+        }
+
+
+        .set_image_description {
+            margin-top: 310px !important;
+        }
+
+        .set_image_description_number {
+            margin-top: 270px !important;
+        }
+
+        #rules_title {
+            padding-bottom: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+
+        #personal-logo {
+            width: 120px;
+          }
+        #landing-page {
+            margin-top: -60px;
+            padding-bottom: 20px; 
+            padding-top: 10px !important;  
+        }
+
+
+        .unit_prices_images {
+            display: flex !important;
+            flex-direction: column !important;
+        }
+
+        .unit_price_image {
+            width: 300px !important;
+            height: 500px !important;
+            margin-top: 10px;
+        }
+
+        .unit_image_description {
+            margin-bottom: 450px !important;
+        }
+
+        .unit_image_price {
+            margin-bottom: 690px !important;
+            margin-left: 25px !important;
+        }
+
+        .set_prices_images {
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            flex-direction: column !important;
+        }
+
+        .set_price_image {
+            width: 300px !important;
+            height: 460px !important;
+            margin-top: 10px;
+        }
+
+        .set_price_center_image {
+            width: 300px !important;
+            height: 460px !important;
+            margin-top: 10px;
+        }
+
+
+        .set_image_description {
+            margin-bottom: 690px !important;
+            margin-left: 10px;
+        }
+
+        .set_image_description_number {
+            margin-bottom: 690px !important;
+            margin-left: 10px;
+        }
+
+        #rules_title {
+            padding-bottom: 10px;
+        }
+
+        .footer__logo--img {
+            width: 20% !important;
+        }
+        .can_and_cant_container {
+            display: flex;
+            flex-direction: column !important;
+            justify-content: space-around;
+            text-align: center;
+            align-items: center !important;
+            padding-top: 350px !important;
+            padding-bottom: 300px;
+        }
+        .footer__logo--img {
+            width: 200px;
+        }
+    }
 
 /* 
    ------------------------------- NAVIGATION -------------------------------
@@ -237,6 +413,33 @@ nav {
 
 .instagram {
     font-weight: bold;
+}
+
+.can_and_cant_underline {
+    text-decoration: underline;
+}
+
+.can_and_cant_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: flex-start;
+    padding-top: 50px;
+    height: 300px;
+}
+
+.magnifier_pic--img {
+    width: 200px;
+    height: 250px;
+}
+
+#you_can_title {
+    color: #647f64;
+}
+
+#you_cant_title {
+    color: #ff5959;
 }
 
   /* 
