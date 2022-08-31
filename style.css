@@ -247,6 +247,9 @@ li {
             padding-top: 350px !important;
             padding-bottom: 300px;
         }
+        #instagram_icon {
+            width: 13px !important;
+        }
     }
 
 /* 
