@@ -195,6 +195,7 @@ li {
 
         .unit_image_description {
             margin-bottom: 450px !important;
+            margin-left: 25px !important;
         }
 
         .unit_image_price {
@@ -308,7 +309,7 @@ nav {
 .unit_image_description {
     position:absolute;
     margin-bottom: 450px;
-    margin-left: 6%;
+
 }
 
 #unit_price_text {
